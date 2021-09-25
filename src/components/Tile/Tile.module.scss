@@ -1,0 +1,77 @@
+.tile {
+  width: 25rem;
+  height: 25rem;
+  background-color: burlywood;
+  font-size: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+
+  transition-property: transform;
+  transition-duration: 100ms;
+  transform: scale(1);
+
+  &--2 {
+    background-color: red;
+  }
+
+  &--4 {
+    background-color: green;
+  }
+
+  &--8 {
+    background-color: blue;
+  }
+
+  &--16 {
+    background-color: pink;
+  }
+  &--32 {
+    background-color: snow;
+  }
+
+  &--64 {
+    background-color: floralwhite;
+  }
+
+  &--128 {
+    background-color: honeydew;
+  }
+
+  &--256 {
+    background-color: gold;
+  }
+
+  &--512 {
+    background-color: burlywood;
+  }
+
+  &--1024 {
+    background-color: wheat;
+  }
+
+  &--2048 {
+    background-color: yellowgreen;
+  }
+
+  &--4096 {
+    background-color: palegoldenrod;
+  }
+
+  &--8192 {
+    background-color: plum;
+  }
+
+  &--16384 {
+    background-color: yellow;
+  }
+
+  &--32768 {
+    background-color: lightsalmon;
+  }
+
+  &--65536 {
+    background-color: coral;
+  }
+}

@@ -1,14 +1,30 @@
 .App {
   text-align: center;
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 2rem;
   color: white;
+}
+
+.button {
+  border: none;
+  margin: 0 0 0 2rem;
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: all 200ms;
+
+  &:hover {
+    background-color: palevioletred;
+    color: white;
+  }
 }
