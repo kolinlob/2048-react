@@ -22,9 +22,10 @@
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   transition: all 200ms;
+  background-color: chocolate;
+  color: white;
 
   &:hover {
-    background-color: palevioletred;
-    color: white;
+    background-color: lighten(chocolate, 15%);
   }
 }

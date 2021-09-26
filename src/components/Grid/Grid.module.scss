@@ -9,14 +9,14 @@
   margin: 5rem auto;
   width: fit-content;
   height: fit-content;
-  background: #bbada0;
+  background: rosybrown;
   border-radius: 0.5rem;
-  border: 1.5rem solid #bbada0;
+  border: 1.5rem solid rosybrown;
 
   &__cell {
     width: 10rem;
     height: 10rem;
-    background-color: lighten(#bbada0, 5%);
+    background-color: lighten(rosybrown, 5%);
     border-radius: 0.5rem;
     margin: 0;
   }
